@@ -1,0 +1,15 @@
+.current {
+    color: var(--accent-color);
+    display: inline-block;
+
+    &::after {
+        content: "";
+        background: #2196f3;
+        border-radius: 2px;
+        height: 4px;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+      }
+  }
