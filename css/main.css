@@ -262,7 +262,7 @@ h6 {
   border: 1px transparent;
 }
 
-.benefits {
+.benefit__main-title {
   display: none;
 }
 
@@ -307,14 +307,14 @@ h6 {
   width: 70px;
 }
 
-.benefit .list {
+.benefit__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
-.benefit .list li {
+.benefit__list li {
   width: 270px;
 }
 

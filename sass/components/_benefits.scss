@@ -1,7 +1,5 @@
-.benefits {
-    display: none
-
-    
+.benefit__main-title {
+    display: none  
 }
 .benefits__title {
     font-size: 14px;
@@ -37,12 +35,10 @@
     height: 70px;
     width: 70px;
   }
-  .benefit {
-    .list {
+  .benefit__list {
         display: flex;
         justify-content: space-around;
         li {
             width: 270px;
           }
-      }
   } 
